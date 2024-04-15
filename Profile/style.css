@@ -1,0 +1,55 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.profile-card {
+    width: 400px;
+    height: auto;
+    padding: 50px;
+    background-color: #000e28;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background-color: #ccc;
+    background-image: url(https://cdn.ostad.app/user/avatar/2024-01-29T15-03-01.192Z-DSC_0754.JPG);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid #ffffff;
+}
+
+.name {
+    margin: 0;
+    font-size: 24px;
+    color: #ededed;
+    font-size: 32px;
+}
+
+.occupation {
+    margin: 5px 0 10px;
+    font-size: 18px;
+    color: #b7b7b7;
+}
+
+.description {
+    margin: 0;
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+.contact-info {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #009da7;
+}
